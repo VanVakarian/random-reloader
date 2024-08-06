@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Advanced Reloader",
+  "version": "0.1",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "images/icon.png"
+  }
+}
